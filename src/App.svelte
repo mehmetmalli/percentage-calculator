@@ -8,9 +8,9 @@
   $: color = first < last ? '#0ff008' : '#ff3e00';
   $: change = Math.abs((last-first)/first*100).toFixed(2)+"%";
 
-	onMount(() => {
+  onMount(() => {
     document.getElementById("first").focus();
-	});
+  });
 </script>
 
 <main>
